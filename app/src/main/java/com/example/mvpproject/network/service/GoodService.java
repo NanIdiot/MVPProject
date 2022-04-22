@@ -9,6 +9,7 @@ import retrofit2.http.Query;
 
 public interface GoodService {
 
+    // test
     @GET("https://github.com/edu-lance/edu-lance.github.io/blob/master/goods_list")
     Flowable<Boolean<List<Goods>>> getGoods();
 
