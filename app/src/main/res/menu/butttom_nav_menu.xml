@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/buttom_title_name"
+        android:icon="@drawable/ic_bottom_home_24"/>
+    <item android:title="@string/buttom_title_cart"
+        android:icon="@drawable/ic_bottom_shopping_cart_24"/>
+    <item android:title="@string/buttom_title_mine"
+        android:icon="@drawable/ic_bottom_mine_24"/>
+</menu>
