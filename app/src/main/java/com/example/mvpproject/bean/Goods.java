@@ -1,40 +1,63 @@
 package com.example.mvpproject.bean;
 
-/**
- * Copyright 2022 bejson.com
- */
 import java.util.List;
 
-/**
- * Auto-generated: 2022-04-21 17:50:38
- *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
- */
-public class Goods<T> {
+public class Goods {
 
-    private T data;
-    private int code;
-    private String message;
-    public void setData(T data) {
-        this.data = data;
-    }
-    public T getData() {
-        return data;
+    private int goodsId;
+    private int spanSize;
+    private List<String> banners;
+    private String imageUrl;
+    private String text;
+
+    public int getSpanSize() {
+        return spanSize;
     }
 
-    public void setCode(int code) {
-        this.code = code;
-    }
-    public int getCode() {
-        return code;
+    public void setSpanSize(int spanSize) {
+        this.spanSize = spanSize;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-    public String getMessage() {
-        return message;
+    public List<String> getBanners() {
+        return banners;
     }
 
+    public void setBanners(List<String> banners) {
+        this.banners = banners;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public int getGoodsId() {
+        return goodsId;
+    }
+
+    public void setGoodsId(int goodsId) {
+        this.goodsId = goodsId;
+    }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "goodsId=" + goodsId +
+                ", spanSize=" + spanSize +
+                ", banners=" + banners +
+                ", imageUrl='" + imageUrl + '\'' +
+                ", text='" + text + '\'' +
+                '}';
+    }
 }

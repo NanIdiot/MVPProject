@@ -4,8 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android_Project/MVPProject/app/src/main/res/drawable/ic_bottom_home_24.xml" value="0.2585" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/drawable/ic_bottom_mine_24.xml" value="0.2585" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/drawable/ic_home_scan_24.xml" value="0.2585" />
         <entry key="..\:/Android_Project/MVPProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2585" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/activity_detail.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/activity_goods_detail.xml" value="0.221875" />
         <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/activity_main.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/fragment_cart.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/fragment_home.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/fragment_mine.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/home_recycler_banner.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/home_recycler_image.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/home_recycler_text.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/layout/home_recycler_text_image.xml" value="0.35520833333333335" />
+        <entry key="..\:/Android_Project/MVPProject/app/src/main/res/menu/buttom_nav_menu.xml" value="0.35520833333333335" />
         <entry key="..\:/Android_Project/MVPProject/app/src/main/res/menu/butttom_nav_menu.xml" value="0.35520833333333335" />
       </map>
     </option>

@@ -1,6 +1,10 @@
 package com.example.mvpproject.network.service;
 
 
+import com.example.mvpproject.bean.BaseBean;
+import com.example.mvpproject.bean.GoodDetail;
+import com.example.mvpproject.bean.Goods;
+
 import java.util.List;
 
 import io.reactivex.rxjava3.core.Flowable;
@@ -10,10 +14,10 @@ import retrofit2.http.Query;
 public interface GoodService {
 
     // test
-    @GET("https://github.com/edu-lance/edu-lance.github.io/blob/master/goods_list")
-    Flowable<Boolean<List<Goods>>> getGoods();
+    @GET("edu-lance/edu-lance.github.io/master/goods_list")
+    Flowable<BaseBean<List<Goods>>> getGoods();
 
-    @GET("https://github.com/edu-lance/edu-lance.github.io/blob/master/goods_detail")
-    Flowable<Boolean<List<Goods>>> getGoodsDetail(@Query("goodsId") int goodsId);
+    @GET("edu-lance/edu-lance.github.io/master/goods_detail")
+    Flowable<BaseBean<GoodDetail>> getGoodsDetail(@Query("goodsId") int goodsId);
 
 }
